@@ -10,9 +10,9 @@ const bio = document.querySelector('.short-bio');
 
 bio.className += ' animated';
 
-const name = document.querySelector('.name');
+const dj = document.querySelector('.name');
 
-name.innerHTML = ('DJ Rashad');
+dj.innerHTML = 'DJ Rashad';
 
 const image = document.querySelector('img');
 
