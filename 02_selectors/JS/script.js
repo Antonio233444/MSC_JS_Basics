@@ -5,6 +5,20 @@ console.log(byClass);
 const byId = document.getElementById('myId');
 console.log(byId);
 
+
+
+
+
+
+const yourId = document.getElementById('yourId');
+console.log(yourId);
+
+const thisClass = document.querySelector('.thisClass');
+console.log(thisClass);
+
+const span = document.getElementsByTagName('span');
+console.log(span);
+
 //Новый способ выбора элементов в JS,появивишйся в последнем стандарте языка
 
 const allBySelector = document.querySelectorAll('.coolClass.mine')//можем вводить любой селектор;

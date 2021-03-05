@@ -1,0 +1,21 @@
+@import url('normalize.css');
+
+
+body {
+    background-color: grey;
+}
+
+
+input {
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.result h2 {
+    text-align: center;
+}
+
+
+
+
