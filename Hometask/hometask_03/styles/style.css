@@ -1,10 +1,9 @@
-@import url('normalize.css');
+
 
 
 body {
     background-color: grey;
 }
-
 
 input {
     margin: 0 auto;
@@ -12,13 +11,13 @@ input {
     margin-bottom: 20px;
 }
 
-fieldset {
-    width: 200px;
+form {
     margin: 50px auto;
-    border-radius: 10%;
-    padding: 20px;
-
+    border: 1px solid black;
+    width: 200px;
+    padding: 10px;
 }
+
 
 .result h2 {
     text-align: center;
@@ -27,7 +26,3 @@ fieldset {
 input[type="submit"] {
     background-color: bisque;
 }
-
-
-
-

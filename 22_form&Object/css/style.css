@@ -5,7 +5,6 @@ body {
     background-color: grey;
 }
 
-
 input {
     margin: 0 auto;
     display: block;
@@ -20,6 +19,7 @@ fieldset {
 
 }
 
+
 .result h2 {
     text-align: center;
 }
@@ -27,6 +27,7 @@ fieldset {
 input[type="submit"] {
     background-color: bisque;
 }
+
 
 
 
