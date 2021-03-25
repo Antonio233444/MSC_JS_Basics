@@ -5,7 +5,7 @@ const insert = document.querySelector('.total');
 
 form.onsubmit = function(e) {
     e.preventDefault();
-    insert.innerHTML = Math.sin(form.elements.quantility.value);
+    insert.innerHTML = Math.sin(3.14/180*(form.elements.quantility.value));
 }
 
 
