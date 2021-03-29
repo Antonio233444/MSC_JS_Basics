@@ -1,0 +1,25 @@
+
+body {
+    background-color: grey;
+}
+
+
+input {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+form {
+    width: 200px;
+    border: 1px solid black;
+    margin: 50px auto;
+    padding: 20px;
+    
+}
+
+input[type="submit"] {
+    background-color: cornsilk;
+    padding: 5px;
+}
+

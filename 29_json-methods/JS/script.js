@@ -14,10 +14,23 @@ console.log(apiString);
 //Метод JSON.stringify() превращает объект JSON в строку;
 
 
+//Пример
 
 
 
+let person = {
+    name: 'Anton',
+    age: 30,
+    city: 'Moscow',
+    father: 'Sasha',
+    mother: 'Lena',
+}
+
+jsonDATA = JSON.stringify(person);   //преобразовали стандартный объект в JSON с помощью метода JSON.stringify();
+console.log(jsonDATA); 
 
 
+person = JSON.parse(jsonDATA);  //JSON назад в объект с помщью метода JSON.parse();
+console.log(person);
 
  

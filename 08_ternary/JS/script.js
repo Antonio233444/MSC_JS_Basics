@@ -28,6 +28,13 @@ else {
 
 question == password ? alert('Пароль верный') : alert('Введите верный пароль');
 
+let i = 1;
+
+while(i <= 10) {
+    console.log(i);
+    i++;
+}
+
 
 
 
