@@ -3,11 +3,11 @@
 
 const APIkey = '40aa06b8277083f0f9e28e699379f669';
 
-const city = 'Kiev';
+/*const city = 'Kiev';*/
 
 const form = document.forms[0];
 
-/*const city = form.elements.first.value;*/
+const city = form.elements.first.value;
 
 
 
